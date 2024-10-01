@@ -1,6 +1,6 @@
 .PHONY: db-up
 db-up: ## Start DB container.
-	@docker compose up db --build -d
+	@docker compose up db -d
 
 .PHONY: db-down
 db-down: ## Stop DB container
