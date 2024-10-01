@@ -1,7 +1,7 @@
 # dockernewbie
 Demo use of Postgresql with Docker
 
-Just a simple example to help a friend to use Postgresql on Docker.
+Just a simple example to help a friend how to use Postgresql on Docker.
 
 1. Spin up the Postgresql container in detached mode.
 
