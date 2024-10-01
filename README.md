@@ -10,11 +10,13 @@ make up-db
 ```
 
 2. Connect to the container using psql.
+ 
 Note that you don't need to have `psql` installed on your machine.
-The command with attach to the container and use `psql` from there.
+
+The command with attach to the container named `db` (docker compose service), and use `psql` from there.
 
 ```bash
 make psql-db
 ```
 
-Once connected you can create your own database manually or run a script to run sql migrations.
+Once connected, you can create your own database manually or run a script to run sql migrations.
